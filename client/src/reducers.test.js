@@ -1,4 +1,4 @@
-import { reducer } from '../utils/reducers';
+import { reducer } from './utils/reducers';
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -9,7 +9,7 @@ import {
   UPDATE_CURRENT_CATEGORY,
   CLEAR_CART,
   TOGGLE_CART
-} from '../utils/actions';
+} from './utils/actions';
 
 const initialState = {
   products: [],
